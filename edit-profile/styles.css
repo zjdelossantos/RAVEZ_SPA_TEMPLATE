@@ -35,8 +35,8 @@ body::-webkit-scrollbar {
 
 .profile-container {
     display: grid;
-    grid-template-columns: auto 1fr; /* Two columns, first for photo, second for form */
-    grid-gap: 20px; /* Adds spacing between the columns */
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px; 
     width: 850px;
     height: 350px;
     border: 1px solid #ffffff15;
@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 .photo-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers both photo and button */
+    align-items: center; 
     grid-column: 1;
     grid-row: span 2;
 }

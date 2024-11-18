@@ -29,20 +29,14 @@ body::-webkit-scrollbar {
 
 .container {
     width: 670px;
-    height: 350px;
+    height: 380px;
     border: 1px solid #ffffff15;
-    background-color: #ffffff11;
+    background-color: #f6f6f611;
     border-radius: 20px;
     padding: 20px 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
-/* .thread-home-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 670px;
-    height: auto;
-} */
+
 
 .page-title h1 {
     color: white;
@@ -55,10 +49,15 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     width: 100%;
+    position: relative;
 }
-
+.search-bar-icon-container{
+    position: absolute;
+    right: 90px;
+    bottom: 12px;
+}
 .search-bar input[type="text"] {
-    width: 400px;
+    width: 500px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ffffffc9;
@@ -68,6 +67,7 @@ body::-webkit-scrollbar {
     color: #fff;
     margin-bottom: 10px;
 }
+
 .content {
     display: flex;
     justify-content: space-between;
